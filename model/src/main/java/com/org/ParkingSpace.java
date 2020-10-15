@@ -9,6 +9,15 @@ public class ParkingSpace {
     //private int subblock
     private ParkingSpaceType status;
     private Car car;
+    private Ticket ticket;
+
+    public Ticket getTicket() {
+        return ticket;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
+    }
 
     public Car getCar() {
         return car;
